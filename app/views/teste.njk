@@ -1,0 +1,9 @@
+{% extends './shared/layout.njk' %} {% block body %}
+<h1>Teste</h1>
+<h2>Olá {{nome}}</h2>
+<ul>
+  {% for nome in nomes %}
+  <li>{{nome}}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
